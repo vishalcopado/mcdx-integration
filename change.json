@@ -20,7 +20,7 @@
           "j": "{\"filePath\":[\"my-app/main/default/profiles/SAMProf2.profile-meta.xml\"]}"
         }
       ],
-      "Operation": "Commit"
+      "Operation": "COMMIT"
     },
     {
       "description": "Trim operation on : ApexClass",
@@ -42,7 +42,7 @@
           "j": "{\"filePath\":[\"my-app/main/default/profiles/SAMProf2.profile-meta.xml\"]}"
         }
       ],
-      "Operation": "Trim"
+      "Operation": "TRIM"
     }
   ]
 }
