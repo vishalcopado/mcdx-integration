@@ -1,8 +1,8 @@
 {
-  "changeTestDescList": [
+  "test_cases": [
     {
-      "testDesc": "Simple commit operation on : CustomObject",
-      "Changes": [
+      "description": "Simple commit operation on : CustomObject",
+      "changes": [
         {
           "t": "CustomObject",
           "n": "kompalCustomObj3__c",
@@ -20,37 +20,29 @@
           "j": "{\"filePath\":[\"my-app/main/default/profiles/SAMProf2.profile-meta.xml\"]}"
         }
       ],
-      "Operation": "COMMIT"
+      "Operation": "Commit"
     },
     {
-      "testDesc": "Simple commit operation on : Customfield, profile, customobject",
-      "Changes": [
+      "description": "Trim operation on : ApexClass",
+      "changes": [
         {
-          "t": "CustomObject",
-          "n": "kompalCustomObject__c",
+          "t": "ApexClass",
+          "n": "kompalApex",
           "m": "force-app/main/default/",
           "c": "",
-          "a": "Add",
-          "j": "{\"filePath\":[\"my-app/main/default/objects/kompalCustomObject__c\",\"my-app/main/default/objects/kompalCustomObject__c/kompalCustomObject__c.object-meta.xml\"]}"
-        },
-        {
-          "t": "CustomField",
-          "n": "kompalCustomObject__c.KompalCustomFIeld1__c",
-          "m": "force-app/main/default/",
-          "c": "",
-          "a": "Add",
-          "j": "{\"filePath\":[\"my-app/main/default/objects/kompalCustomObject__c/fields/KompalCustomFIeld1__c.field-meta.xml\"]}"
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"my-app/main/default/classes/kompalApex.cls\",\"my-app/main/default/classes/kompalApex-meta.xml\"]}"
         },
         {
           "t": "Profile",
-          "n": "kompalProfile",
+          "n": "SAMProf2",
           "m": "force-app/main/default/",
           "c": "",
           "a": "Add",
-          "j": "{\"filePath\":[\"my-app/main/default/profiles/kompalProfile.profile-meta.xml\"]}"
+          "j": "{\"filePath\":[\"my-app/main/default/profiles/SAMProf2.profile-meta.xml\"]}"
         }
       ],
-      "Operation": "COMMIT"
+      "Operation": "Trim"
     }
   ]
 }
