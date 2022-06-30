@@ -1,0 +1,9 @@
+<aura:documentation>
+	<aura:description>Documentation</aura:description>
+	<aura:example name="ExampleName" ref="exampleComponentName" label="Label">
+		Example Description test kompal
+	</aura:example>
+    <aura:example name="ExampleName2" ref="exampleComponentName" label="Label2">
+		Example Description test kompal2
+	</aura:example>
+</aura:documentation>

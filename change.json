@@ -5,19 +5,19 @@
       "changes": [
         {
           "t": "CustomObject",
-          "n": "kompalCustomObj3__c",
+          "n": "KompalCustomObj1__c",
           "m": "force-app/main/default/",
           "c": "",
           "a": "Add",
-          "j": "{\"filePath\":[\"my-app/main/default/objects/kompalCustomObj3__c\",\"my-app/main/default/objects/KompalCustomObj1__c/kompalCustomObj3__c.object-meta.xml\"]}"
+          "j": "{\"filePath\":[\"my-app/main/default/objects/KompalCustomObj1__c\",\"my-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
         },
         {
           "t": "Profile",
-          "n": "SAMProf2",
+          "n": "Admin",
           "m": "force-app/main/default/",
           "c": "",
           "a": "Add",
-          "j": "{\"filePath\":[\"my-app/main/default/profiles/SAMProf2.profile-meta.xml\"]}"
+          "j": "{\"filePath\":[\"my-app/main/default/profiles/Admin.profile-meta.xml\"]}"
         }
       ],
       "Operation": "COMMIT"
@@ -27,20 +27,29 @@
       "changes": [
         {
           "t": "ApexClass",
-          "n": "kompalApex",
+          "n": "AppleWatch",
           "m": "force-app/main/default/",
           "c": "",
           "a": "RetrieveOnly",
-          "j": "{\"filePath\":[\"my-app/main/default/classes/kompalApex.cls\",\"my-app/main/default/classes/kompalApex-meta.xml\"]}"
+          "j": "{\"filePath\":[\"force-app/main/default/classes/AppleWatch.cls\",\"force-app/main/default/classes/AppleWatch-meta.xml\"]}"
         },
         {
           "t": "Profile",
-          "n": "SAMProf2",
+          "n": "Admin",
           "m": "force-app/main/default/",
           "c": "",
           "a": "Add",
-          "j": "{\"filePath\":[\"my-app/main/default/profiles/SAMProf2.profile-meta.xml\"]}"
+          "j": "{\"filePath\":[\"force-app/main/default/profiles/Admin.profile-meta.xml\"]}"
+        },
+        {
+          "t": "CustomObject",
+          "n": "KompalCustomObj1__c",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "Add",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1/KompalCustomObj1__c.object-meta.xml\"]}"
         }
+        
       ],
       "Operation": "TRIM"
     }

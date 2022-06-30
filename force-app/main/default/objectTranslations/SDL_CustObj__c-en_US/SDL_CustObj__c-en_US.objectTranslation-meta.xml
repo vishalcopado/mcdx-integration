@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>SDL_CustObj</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>SDL_CustObjs</value>
+    </caseValues>
+    <fieldSets>
+        <label>Test</label>
+        <name>SDL_CustFS</name>
+    </fieldSets>
+    <layouts>
+        <layout>SDL_Cust@#$)(*&amp;layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label></label>
+        <name>SDL_CustRT</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>SDL_ValRule</name>
+    </validationRules>
+</CustomObjectTranslation>

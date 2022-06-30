@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>ABCLB</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ABCLB</shortDescription>
+        <value>ABCLB</value>
+    </labels>
+    <labels>
+        <fullName>ST1_test</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ST1_test</shortDescription>
+        <value>ST1_test dev2 org</value>
+    </labels>
+    <labels>
+        <fullName>ST2_test</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ST2_test</shortDescription>
+        <value>ST2_test in dev2 org</value>
+    </labels>
+    <labels>
+        <fullName>ST3_test</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ST3_test</shortDescription>
+        <value>ST3_test in dev2 org</value>
+    </labels>
+    <labels>
+        <fullName>Test_CL1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Test_CL1</shortDescription>
+        <value>test</value>
+    </labels>
+    <labels>
+        <fullName>Test_Cl2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Test CL2</shortDescription>
+        <value>test 2</value>
+    </labels>
+    <labels>
+        <fullName>ctx_Special_Characters</fullName>
+        <categories>ctx Special Characters `¨ç_:;__; - (test)</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ctx Special Characters `¨ç_:;__; - (test)</shortDescription>
+        <value>?¿!&quot;@·#$%&amp;/()=?¿¡&apos;*+[]¨{}´ç,;.:-_--__</value>
+    </labels>
+    <labels>
+        <fullName>ctx_labelDimension</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ctx_labelDimension</shortDescription>
+        <value>my Dimension</value>
+    </labels>
+    <labels>
+        <fullName>ctx_labelGalaxy</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ctx_labelGalaxy</shortDescription>
+        <value>My Galaxy</value>
+    </labels>
+    <labels>
+        <fullName>ctx_labelPlanet</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ctx_labelPlanet</shortDescription>
+        <value>My Planet</value>
+    </labels>
+    <labels>
+        <fullName>l1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>l1</shortDescription>
+        <value>1</value>
+    </labels>
+    <labels>
+        <fullName>label102</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>label102</shortDescription>
+        <value>test102</value>
+    </labels>
+    <labels>
+        <fullName>label_101</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>label101</shortDescription>
+        <value>test101 second edit in dev1</value>
+    </labels>
+    <labels>
+        <fullName>new_nv</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>new_nv</shortDescription>
+        <value>enew</value>
+    </labels>
+    <labels>
+        <fullName>nv_Test</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>nv Test</shortDescription>
+        <value>nvtest</value>
+    </labels>
+    <labels>
+        <fullName>pctxd_customlabel1_new_csf_dev1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>pctxd_customlabel1_new_csf_dev1 in dev 2</shortDescription>
+        <value>pctxd_customlabel1_new_csf_dev1 edit in dev 2</value>
+    </labels>
+    <labels>
+        <fullName>pctxd_customlabel2_new_csf_dev1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>pctxd_customlabel2_new_csf_dev1 in dev 2</shortDescription>
+        <value>pctxd_customlabel2_new_csf_dev1 edit in dev2</value>
+    </labels>
+</CustomLabels>

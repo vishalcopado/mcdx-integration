@@ -1,0 +1,34 @@
+regex_lib: 
+  remove-simple-tag: '(?s)(\n\s*<___REPLACEVALUE___>[\s\S]*?</___REPLACEVALUE___>)'
+  translation-gender: '(?i)\s*<gender><!--\s*___REPLACEVALUE___\s*--></gender>'
+  replaceAnyting: '___REPLACEVALUE___'
+
+rules:
+  removeSimpleTag_Extensions: 
+    branches:
+    extensions: 
+      - xml
+    regex_name: remove-simple-tag
+    replace_values: 
+      - includeRecordsOwnedByAll
+      - gender
+    replace_with: 
+
+  removeTranslationGender: 
+    branches:
+    extensions: 
+      - xml
+    regex_name: translation-gender
+    replace_values: 
+      - Neuter
+    replace_with: 
+
+
+  removeAnnoyingGender: 
+    branches:
+    extensions: 
+      - xml
+    regex_name: translation-gender
+    replace_values: 
+      - <gender></gender>
+    replace_with: 
