@@ -9,7 +9,7 @@
           "m": "force-app/main/default/",
           "c": "",
           "a": "Add",
-          "j": "{\"filePath\":[\"my-app/main/default/objects/KompalCustomObj1__c\",\"my-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c\",\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
         },
         {
           "t": "Profile",
@@ -17,7 +17,7 @@
           "m": "force-app/main/default/",
           "c": "",
           "a": "Add",
-          "j": "{\"filePath\":[\"my-app/main/default/profiles/Admin.profile-meta.xml\"]}"
+          "j": "{\"filePath\":[\"force-app/main/default/profiles/Admin.profile-meta.xml\"]}"
         }
       ],
       "Operation": "COMMIT"
