@@ -1,15 +1,15 @@
 {
   "test_cases": [
     {
-      "description": "Simple commit operation on : CustomObject",
+      "description": "Testing of Nested Handling for Profile for COMMIT Operation",
       "changes": [
         {
           "t": "CustomObject",
           "n": "KompalCustomObj1__c",
           "m": "force-app/main/default/",
           "c": "",
-          "a": "Add",
-          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c\",\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+          "a": "RetreiveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
         },
         {
           "t": "Profile",
@@ -18,6 +18,22 @@
           "c": "",
           "a": "Add",
           "j": "{\"filePath\":[\"force-app/main/default/profiles/Admin.profile-meta.xml\"]}"
+        },
+        {
+          "t": "CustomApplication",
+          "n": "MyApplication",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetreiveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/profiles/Admin.profile-meta.xml\"]}"
+        },
+        {
+          "t": "CustomField",
+          "n": "KompalCustomObj1__c.KompalField__c",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetreiveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
         }
       ],
       "Operation": "COMMIT"
