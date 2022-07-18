@@ -34,6 +34,48 @@
           "c": "",
           "a": "RetreiveOnly",
           "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+        },{
+          "t": "ApexClass",
+          "n": "Democls",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetreiveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+        },{
+          "t": "ApexPage",
+          "n": "demopage",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetreiveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+        },{
+          "t": "RecordType",
+          "n": "KompalCustomObj1__c.CFS_RT1",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetreiveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+        },{
+          "t": "CustomPermission",
+          "n": "v54customperm",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetreiveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+        },{
+          "t": "Layout",
+          "n": "KompalCustomObj1__c-CustFol_Object Layout",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetreiveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+        },{
+          "t": "Layout",
+          "n": "KompalCustomObj1__c-CustFol_Object Layout",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetreiveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
         }
       ],
       "Operation": "COMMIT"
