@@ -4,6 +4,14 @@
       "description": "Testing of Nested Handling for Profile for COMMIT Operation",
       "changes": [
         {
+          "t": "Profile",
+          "n": "Admin",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "Add",
+          "j": "{\"filePath\":[\"force-app/main/default/profiles/Admin.profile-meta.xml\"]}"
+        },
+        {
           "t": "CustomObject",
           "n": "KompalCustomObj1__c",
           "m": "force-app/main/default/",
@@ -77,7 +85,7 @@
       "changes": [
         
         {
-          "t": "CustomPermission",
+          "t": "PermissionSet",
           "n": "SDL_PS",
           "m": "force-app/main/default/",
           "c": "",
@@ -142,6 +150,14 @@
       "description": "Testing of Nested Handling for ASSIGNMENTRULES for COMMIT Operation",
       "changes": [
         {
+          "t": "AssignmentRules",
+          "n": "Case",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "Add",
+          "j": "{\"filePath\":[\"force-app/main/default/assignmentRules/Case.assignmentRules-meta.xml\"]}"
+        },
+        {
           "t": "AssignmentRule",
           "n": "Case.customrule",
           "m": "force-app/main/default/",
@@ -155,6 +171,14 @@
     },{
       "description": "Testing of Nested Handling for MATCHINGRULES for COMMIT Operation",
       "changes": [
+        {
+          "t": "MatchingRules",
+          "n": "SDL_CustObj__c",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "Add",
+          "j": "{\"filePath\":[\"force-app/main/default/matchingRules/SDL_CustObj__c.matchingRule-meta.xml\"]}"
+        },
         {
           "t": "MatchingRule",
           "n": "SDL_CustObj__c.SDL_MatchRule2",
