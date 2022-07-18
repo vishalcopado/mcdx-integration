@@ -12,14 +12,6 @@
           "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
         },
         {
-          "t": "Profile",
-          "n": "Admin",
-          "m": "force-app/main/default/",
-          "c": "",
-          "a": "Add",
-          "j": "{\"filePath\":[\"force-app/main/default/profiles/Admin.profile-meta.xml\"]}"
-        },
-        {
           "t": "CustomApplication",
           "n": "MyApplication",
           "m": "force-app/main/default/",
@@ -77,6 +69,101 @@
           "a": "RetrieveOnly",
           "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
         }
+      ],
+      "Operation": "COMMIT"
+    },
+    {
+      "description": "Testing of Nested Handling for PERMISSIONSET for COMMIT Operation",
+      "changes": [
+        
+        {
+          "t": "CustomPermission",
+          "n": "SDL_PS",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "Add",
+          "j": "{\"filePath\":[\"force-app/main/default/permissionsets/SDL_PS.permissionset-meta.xml\"]}"
+        },
+        {
+          "t": "CustomObject",
+          "n": "KompalCustomObj1__c",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+        },
+        {
+          "t": "CustomApplication",
+          "n": "MyApplication",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/profiles/Admin.profile-meta.xml\"]}"
+        },
+        {
+          "t": "CustomField",
+          "n": "KompalCustomObj1__c.KompalField__c",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+        },{
+          "t": "ApexClass",
+          "n": "Democls",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+        },{
+          "t": "ApexPage",
+          "n": "demopage",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+        },{
+          "t": "RecordType",
+          "n": "KompalCustomObj1__c.CFS_RT1",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+        },{
+          "t": "CustomPermission",
+          "n": "v54customperm",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+        }
+      ],
+      "Operation": "COMMIT"
+    },{
+      "description": "Testing of Nested Handling for ASSIGNMENTRULES for COMMIT Operation",
+      "changes": [
+        {
+          "t": "AssignmentRule",
+          "n": "Case.customrule",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "Add",
+          "j": "{\"filePath\":[\"force-app/main/default/assignmentRules/Case.assignmentRules-meta.xml\"]}"
+        }
+        
+      ],
+      "Operation": "COMMIT"
+    },{
+      "description": "Testing of Nested Handling for MATCHINGRULES for COMMIT Operation",
+      "changes": [
+        {
+          "t": "MatchingRule",
+          "n": "SDL_CustObj__c.SDL_MatchRule2",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "Add",
+          "j": "{\"filePath\":[\"force-app/main/default/matchingRules/SDL_CustObj__c.matchingRule-meta.xml\"]}"
+        }
+        
       ],
       "Operation": "COMMIT"
     }
