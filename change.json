@@ -99,6 +99,22 @@
           "j": "{\"filePath\":[\"force-app/main/default/permissionsets/SDL_PS.permissionset-meta.xml\"]}"
         },
         {
+          "t": "CustomApplication",
+          "n": "Chatter_Answers_Moderator",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/applications/Chatter_Answers_Moderator.app-meta.xml\"]}"
+        },
+        {
+          "t": "CustomField",
+          "n": "KompalCustomObj1__c.KompalField2__c",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/fields/KompalCustomField2__c.field-meta.xml\"]}"
+        },
+        {
           "t": "CustomObject",
           "n": "KompalCustomObj1__c",
           "m": "force-app/main/default/",
@@ -107,52 +123,73 @@
           "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
         },
         {
-          "t": "CustomApplication",
-          "n": "MyApplication",
+          "t": "CustomTab",
+          "n": "SDL_CustObj__c",
           "m": "force-app/main/default/",
           "c": "",
           "a": "RetrieveOnly",
-          "j": "{\"filePath\":[\"force-app/main/default/profiles/Admin.profile-meta.xml\"]}"
+          "j": "{\"filePath\":[\"force-app/main/default/tabs/SDL_CustObj__c.tab-meta.xml\"]}"
         },
         {
-          "t": "CustomField",
-          "n": "KompalCustomObj1__c.KompalField__c",
-          "m": "force-app/main/default/",
-          "c": "",
-          "a": "RetrieveOnly",
-          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
-        },{
           "t": "ApexClass",
-          "n": "Democls",
+          "n": "ctx_AccountAutomations",
           "m": "force-app/main/default/",
           "c": "",
           "a": "RetrieveOnly",
-          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
-        },{
+          "j": "{\"filePath\":[\"force-app/main/default/classes/ctx_AccountAutomations.cls-meta.xml\"]}"
+        },
+        {
           "t": "ApexPage",
-          "n": "demopage",
+          "n": "ctx_testVFPage",
           "m": "force-app/main/default/",
           "c": "",
           "a": "RetrieveOnly",
-          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
-        },{
+          "j": "{\"filePath\":[\"force-app/main/default/pages/ctx_testVFPage.page-meta.xml\"]}"
+        },
+        {
           "t": "RecordType",
-          "n": "KompalCustomObj1__c.CFS_RT1",
+          "n": "KompalCustomObj1__c.TestRecord1",
           "m": "force-app/main/default/",
           "c": "",
           "a": "RetrieveOnly",
-          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
-        },{
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/recordTypes/TestRecord1.recordType-meta.xml\"]}"
+        },
+        {
           "t": "CustomPermission",
-          "n": "v54customperm",
+          "n": "KPCustomPermission1",
           "m": "force-app/main/default/",
           "c": "",
           "a": "RetrieveOnly",
-          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+          "j": "{\"filePath\":[\"force-app/main/default/customPermissions/KPCustomPermission1.customPermission-meta.xml\"]}"
+        },
+        {
+          "t": "CustomObject",
+          "n": "KompalCustomMDT__mdt",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomMDT__mdt/KompalCustomMDT__mdt.object-meta.xml\"]}"
+        },
+        {
+          "t": "CustomObject",
+          "n": "kompalCustomSetting1__c",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/kompalCustomSetting1__c/kompalCustomSetting1__c.object-meta.xml\"]}"
+        },
+        {
+          "t": "Workflow",
+          "n": "Planet__c",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/workflows/Planet__c.workflow-meta.xml\"]}"
         }
       ],
       "Operation": "COMMIT"
-    },{
+    },
+    {
       "description": "Testing of Nested Handling for ASSIGNMENTRULES for COMMIT Operation",
       "changes": [
         {
@@ -174,7 +211,8 @@
         
       ],
       "Operation": "COMMIT"
-    },{
+    },
+    {
       "description": "Testing of Nested Handling for MATCHINGRULES for COMMIT Operation",
       "changes": [
         {
@@ -222,6 +260,61 @@
           "c": "",
           "a": "RetrieveOnly",
           "j": "{\"filePath\":[\"force-app/main/default/sharingRules/SDL_CustObj__c.sharingRules-meta.xml\"]}"
+        }
+        
+      ],
+      "Operation": "COMMIT"
+    },
+    {
+      "description": "Testing of Nested Handling for WORKFLOWRULES for COMMIT Operation",
+      "changes": [
+        {
+          "t": "Workflow",
+          "n": "Planet__c",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "Add",
+          "j": "{\"filePath\":[\"force-app/main/default/workflows/Planet__c.workflow-meta.xml\"]}"
+        },
+        {
+          "t": "WorkflowAlert",
+          "n": "Planet__c",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "Add",
+          "j": "{\"filePath\":[\"force-app/main/default/workflows/Planet__c.workflow-meta.xml\"]}"
+        },
+        {
+          "t": "WorkflowFieldUpdate",
+          "n": "Planet__c",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "Add",
+          "j": "{\"filePath\":[\"force-app/main/default/workflows/Planet__c.workflow-meta.xml\"]}"
+        },
+        {
+          "t": "WorkflowOutboundMessage",
+          "n": "Planet__c",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "Add",
+          "j": "{\"filePath\":[\"force-app/main/default/workflows/Planet__c.workflow-meta.xml\"]}"
+        },
+        {
+          "t": "WorkflowRule",
+          "n": "Planet__c",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "Add",
+          "j": "{\"filePath\":[\"force-app/main/default/workflows/Planet__c.workflow-meta.xml\"]}"
+        },
+        {
+          "t": "WorkflowTask",
+          "n": "Planet__c",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "Add",
+          "j": "{\"filePath\":[\"force-app/main/default/workflows/Planet__c.workflow-meta.xml\"]}"
         }
         
       ],
