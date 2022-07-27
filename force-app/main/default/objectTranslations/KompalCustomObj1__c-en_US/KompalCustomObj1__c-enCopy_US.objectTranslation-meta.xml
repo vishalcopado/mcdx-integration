@@ -10,50 +10,50 @@
     </caseValues>
     <fieldSets>
         <label></label>
-        <name>KompalFieldSet1Dummy</name>
+        <name>KompalFieldSet1</name>
     </fieldSets>
     <layouts>
-        <layout>kompalLayout2Dummy</layout>
+        <layout>kompalLayout2</layout>
         <sections>
             <label></label>
-            <section>Custom Links Dummy</section>
+            <section>Custom Links</section>
         </sections>
         <sections>
             <label></label>
-            <section>Fields Dummy</section>
+            <section>Fields</section>
         </sections>
     </layouts>
     <quickActions>
         <label></label>
-        <name>KompalAction2Dummy</name>
+        <name>KompalAction2</name>
     </quickActions>
     <quickActions>
         <label></label>
-        <name>KompalLOG2Dummy</name>
+        <name>KompalLOG2</name>
     </quickActions>
     <quickActions>
         <label></label>
-        <name>KompalActionDummy</name>
+        <name>KompalAction</name>
     </quickActions>
     <recordTypes>
         <label>test translation in english</label>
-        <name>TestRecord1Dummy</name>
+        <name>TestRecord1</name>
     </recordTypes>
     <startsWith>Consonant</startsWith>
     <validationRules>
         <errorMessage>transalte in EN</errorMessage>
-        <name>Validate_start_of_nameDummy</name>
+        <name>Validate_start_of_name</name>
     </validationRules>
     <webLinks>
         <label>test trnslate</label>
-        <name>KompallinkDummy</name>
+        <name>Kompallink</name>
     </webLinks>
     <webLinks>
         <label>test tr3</label>
-        <name>Kompalweblink3Dummy</name>
+        <name>Kompalweblink3</name>
     </webLinks>
     <webLinks>
         <label></label>
-        <name>KompalButtonDummy</name>
+        <name>KompalButton</name>
     </webLinks>
 </CustomObjectTranslation>
