@@ -251,11 +251,11 @@
           "n": "SDL_CustObj__c.SDL_SharingRules3",
           "m": "force-app/main/default/",
           "c": "",
-          "a": "RetrieveOnly",
+          "a": "Add",
           "j": "{\"filePath\":[\"force-app/main/default/sharingRules/SDL_CustObj__c.sharingRules-meta.xml\"]}"
         },{
           "t": "SharingCriteriaRule",
-          "n": "SDL_CustObj__c.SDL_SharingRules4",
+          "n": "SDL_CustObj__c.SDL_SharingRules2",
           "m": "force-app/main/default/",
           "c": "",
           "a": "RetrieveOnly",
@@ -278,15 +278,15 @@
         },
         {
           "t": "WorkflowAlert",
-          "n": "Planet__c",
+          "n": "Planet__c.ctx_wf_email_alert_1",
           "m": "force-app/main/default/",
           "c": "",
-          "a": "Add",
+          "a": "RetrieveOnly",
           "j": "{\"filePath\":[\"force-app/main/default/workflows/Planet__c.workflow-meta.xml\"]}"
         },
         {
           "t": "WorkflowFieldUpdate",
-          "n": "Planet__c",
+          "n": "Planet__c.ctx_planet_wf_field_update_1",
           "m": "force-app/main/default/",
           "c": "",
           "a": "Add",
@@ -294,7 +294,7 @@
         },
         {
           "t": "WorkflowOutboundMessage",
-          "n": "Planet__c",
+          "n": "Planet__c.ctx_planet_wf_obound_mssg",
           "m": "force-app/main/default/",
           "c": "",
           "a": "Add",
@@ -302,7 +302,7 @@
         },
         {
           "t": "WorkflowRule",
-          "n": "Planet__c",
+          "n": "Planet__c.ctx Planet WF Rule 1",
           "m": "force-app/main/default/",
           "c": "",
           "a": "Add",
@@ -310,7 +310,7 @@
         },
         {
           "t": "WorkflowTask",
-          "n": "Planet__c",
+          "n": "Planet__c.ctx_planet_WF_Task_1",
           "m": "force-app/main/default/",
           "c": "",
           "a": "Add",
