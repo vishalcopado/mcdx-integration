@@ -31,7 +31,19 @@
         <label></label>
         <name>KompalLOG2</name>
     </quickActions>
+    <quickActions>
+        <label></label>
+        <name>KompalAction</name>
+    </quickActions>
+    <recordTypes>
+        <label>test translation in english</label>
+        <name>TestRecord1</name>
+    </recordTypes>
     <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage>transalte in EN</errorMessage>
+        <name>Validate_start_of_name</name>
+    </validationRules>
     <webLinks>
         <label>test trnslate</label>
         <name>Kompallink</name>
@@ -39,5 +51,9 @@
     <webLinks>
         <label>test tr3</label>
         <name>Kompalweblink3</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>KompalButton</name>
     </webLinks>
 </CustomObjectTranslation>
