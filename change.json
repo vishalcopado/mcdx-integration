@@ -157,7 +157,7 @@
           "m": "force-app/main/default/",
           "c": "",
           "a": "Add",
-          "j": "{\"filePath\":[\"force-app/main/default/permissionsets/kompal2_Muted.mutingpermissionset-meta.xml\"]}"
+          "j": "{\"filePath\":[\"force-app/main/default/mutingpermissionsets/kompal2_Muted.mutingpermissionset-meta.xml\"]}"
         },
         {
           "t": "CustomObject",
