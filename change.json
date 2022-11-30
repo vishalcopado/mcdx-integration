@@ -64,14 +64,14 @@
           "n": "SDL_CustObj__c.SDL_SharingRules3",
           "m": "force-app/main/default/",
           "c": "",
-          "a": "RetrieveOnly",
+          "a": "Add",
           "j": "{\"filePath\":[\"force-app/main/default/sharingRules/SDL_CustObj__c.sharingRules-meta.xml\"]}"
         },{
           "t": "SharingCriteriaRule",
           "n": "SDL_CustObj__c.SDL_SharingRules4",
           "m": "force-app/main/default/",
           "c": "",
-          "a": "RetrieveOnly",
+          "a": "Add",
           "j": "{\"filePath\":[\"force-app/main/default/sharingRules/SDL_CustObj__c.sharingRules-meta.xml\"]}"
         }
         
