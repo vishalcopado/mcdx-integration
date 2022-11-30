@@ -256,7 +256,7 @@
           "n": "SDL_CustObj__c.SDL_MatchRule2",
           "m": "force-app/main/default/",
           "c": "",
-          "a": "RetrieveOnly",
+          "a": "Add",
           "j": "{\"filePath\":[\"force-app/main/default/matchingRules/SDL_CustObj__c.matchingRule-meta.xml\"]}"
         }
         
@@ -280,14 +280,14 @@
           "n": "SDL_CustObj__c.SDL_SharingRules3",
           "m": "force-app/main/default/",
           "c": "",
-          "a": "RetrieveOnly",
+          "a": "Add",
           "j": "{\"filePath\":[\"force-app/main/default/sharingRules/SDL_CustObj__c.sharingRules-meta.xml\"]}"
         },{
           "t": "SharingCriteriaRule",
           "n": "SDL_CustObj__c.SDL_SharingRules4",
           "m": "force-app/main/default/",
           "c": "",
-          "a": "RetrieveOnly",
+          "a": "Add",
           "j": "{\"filePath\":[\"force-app/main/default/sharingRules/SDL_CustObj__c.sharingRules-meta.xml\"]}"
         }
         
@@ -311,7 +311,7 @@
           "n": "Case.myRule",
           "m": "force-app/main/default/",
           "c": "",
-          "a": "RetrieveOnly",
+          "a": "Add",
           "j": "{\"filePath\":[\"force-app/main/default/escalationRules/Case.escalationRules-meta.xml\"]}"
         }
         
