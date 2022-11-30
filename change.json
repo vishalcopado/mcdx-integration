@@ -79,7 +79,7 @@
         }
       ],
       "Operation": "COMMIT",
-      "Scenario":"POSITIVE"
+      "testCaseType":"POSITIVE"
     },
     {
       "description": "Testing of Nested Handling for PERMISSIONSET for COMMIT Operation",
@@ -147,7 +147,7 @@
         }
       ],
       "Operation": "COMMIT",
-      "Scenario":"POSITIVE"
+      "testCaseType":"POSITIVE"
     },
     {
       "description": "Testing of Nested Handling for MUTINGPERMISSIONSET for COMMIT Operation",
@@ -215,7 +215,7 @@
         }
       ],
       "Operation": "COMMIT",
-      "Scenario":"POSITIVE"
+      "testCaseType":"POSITIVE"
     },
     {
       "description": "Testing of Nested Handling for ASSIGNMENTRULES for COMMIT Operation",
@@ -239,7 +239,7 @@
         
       ],
       "Operation": "COMMIT",
-      "Scenario":"POSITIVE"
+      "testCaseType":"POSITIVE"
     },{
       "description": "Testing of Nested Handling for MATCHINGRULES for COMMIT Operation",
       "changes": [
@@ -262,7 +262,7 @@
         
       ],
       "Operation": "COMMIT",
-      "Scenario":"POSITIVE"
+      "testCaseType":"POSITIVE"
     },
     {
       "description": "Testing of Nested Handling for SHARINGRULES for COMMIT Operation",
@@ -293,7 +293,7 @@
         
       ],
       "Operation": "COMMIT",
-      "Scenario":"POSITIVE"
+      "testCaseType":"POSITIVE"
     },
     {
       "description": "Testing of Nested Handling for ESCALATIONRULES for COMMIT Operation",
@@ -317,7 +317,7 @@
         
       ],
       "Operation": "COMMIT",
-      "Scenario":"POSITIVE"
+      "testCaseType":"POSITIVE"
     }
     
   ]
