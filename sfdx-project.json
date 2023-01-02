@@ -5,7 +5,7 @@
       "default": false
     },
     {
-      "path": "mydir",
+      "path": "trim-app",
       "default": true
     },
     {

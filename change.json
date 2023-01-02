@@ -84,11 +84,13 @@
           "j": "{\"filePath\":[\"force-app/main/default/layouts/KompalCustomObj1__c-kompalLayout2 Layout.layout-meta.xml\"]}"
         }
       ],
-      "Operation": "COMMIT"
+      "Operation": "COMMIT",
+      "testCaseType":"POSITIVE"
     },
     {
       "description": "Testing of Nested Handling for PERMISSIONSET for COMMIT Operation",
       "changes": [
+        
         {
           "t": "PermissionSet",
           "n": "SDL_PS",
@@ -186,7 +188,76 @@
           "j": "{\"filePath\":[\"force-app/main/default/workflows/Planet__c.workflow-meta.xml\"]}"
         }
       ],
-      "Operation": "COMMIT"
+      "Operation": "COMMIT",
+      "testCaseType":"POSITIVE"
+    },
+    {
+      "description": "Testing of Nested Handling for MUTINGPERMISSIONSET for COMMIT Operation",
+      "changes": [
+
+        {
+          "t": "MutingPermissionSet",
+          "n": "kompal2_Muted",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "Add",
+          "j": "{\"filePath\":[\"force-app/main/default/mutingpermissionsets/kompal2_Muted.mutingpermissionset-meta.xml\"]}"
+        },
+        {
+          "t": "CustomObject",
+          "n": "KompalCustomObj1__c",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+        },
+        {
+          "t": "CustomApplication",
+          "n": "MyApplication",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/profiles/Admin.profile-meta.xml\"]}"
+        },
+        {
+          "t": "CustomField",
+          "n": "KompalCustomObj1__c.KompalField__c",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+        },{
+          "t": "ApexClass",
+          "n": "Democls",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+        },{
+          "t": "ApexPage",
+          "n": "demopage",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+        },{
+          "t": "RecordType",
+          "n": "KompalCustomObj1__c.CFS_RT1",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+        },{
+          "t": "CustomPermission",
+          "n": "v54customperm",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+        }
+      ],
+      "Operation": "COMMIT",
+      "testCaseType":"POSITIVE"
     },
     {
       "description": "Testing of Nested Handling for ASSIGNMENTRULES for COMMIT Operation",
@@ -209,7 +280,8 @@
         }
         
       ],
-      "Operation": "COMMIT"
+      "Operation": "COMMIT",
+      "testCaseType":"POSITIVE"
     },
     {
       "description": "Testing of Nested Handling for MATCHINGRULES for COMMIT Operation",
@@ -227,12 +299,13 @@
           "n": "SDL_CustObj__c.SDL_MatchRule",
           "m": "force-app/main/default/",
           "c": "",
-          "a": "RetrieveOnly",
+          "a": "Add",
           "j": "{\"filePath\":[\"force-app/main/default/matchingRules/SDL_CustObj__c.matchingRule-meta.xml\"]}"
         }
         
       ],
-      "Operation": "COMMIT"
+      "Operation": "COMMIT",
+      "testCaseType":"POSITIVE"
     },
     {
       "description": "Testing of Nested Handling for SHARINGRULES for COMMIT Operation",
@@ -257,12 +330,13 @@
           "n": "SDL_CustObj__c.SDL_SharingRules2",
           "m": "force-app/main/default/",
           "c": "",
-          "a": "RetrieveOnly",
+          "a": "Add",
           "j": "{\"filePath\":[\"force-app/main/default/sharingRules/SDL_CustObj__c.sharingRules-meta.xml\"]}"
         }
         
       ],
-      "Operation": "COMMIT"
+      "Operation": "COMMIT",
+      "testCaseType":"POSITIVE"
     },
     {
       "description": "Testing of Nested Handling for WORKFLOWRULES for COMMIT Operation",
@@ -315,9 +389,10 @@
           "a": "Add",
           "j": "{\"filePath\":[\"force-app/main/default/workflows/Planet__c.workflow-meta.xml\"]}"
         }
-        
+
       ],
-      "Operation": "COMMIT"
+      "Operation": "COMMIT",
+      "testCaseType":"POSITIVE"
     },
     {
       "description": "Testing of Nested Handling for ESCALATIONRULES for COMMIT Operation",
@@ -335,12 +410,13 @@
           "n": "Case.myRule",
           "m": "force-app/main/default/",
           "c": "",
-          "a": "RetrieveOnly",
+          "a": "Add",
           "j": "{\"filePath\":[\"force-app/main/default/escalationRules/Case.escalationRules-meta.xml\"]}"
         }
         
       ],
-      "Operation": "COMMIT"
+      "Operation": "COMMIT",
+      "testCaseType":"POSITIVE"
     },
     {
       "description": "Testing of Nested Handling for CUSTOMOBJECTTRANSLATION for COMMIT Operation",
@@ -409,9 +485,10 @@
           "a": "RetrieveOnly",
           "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/webLinks/KompalButton.webLink-meta.xml\"]}"
         }
-        
+
       ],
-      "Operation": "COMMIT"
+      "Operation": "COMMIT",
+      "testCaseType":"POSITIVE"
     },
     {
       "description": "Testing of Nested Handling for PROFILE for TRIM Operation",
@@ -497,7 +574,8 @@
           "j": "{\"filePath\":[\"trim-app/main/default/layouts/KompalCustomObj1__c-kompalLayout2 Layout.layout-meta.xml\"]}"
         }
       ],
-      "Operation": "TRIM"
+      "Operation": "TRIM",
+      "testCaseType":"POSITIVE"
     },
     {
       "description": "Testing of Nested Handling for PERMISSIONSET for TRIM Operation",
@@ -599,7 +677,8 @@
           "j": "{\"filePath\":[\"trim-app/main/default/workflows/Planet__c.workflow-meta.xml\"]}"
         }
       ],
-      "Operation": "TRIM"
+      "Operation": "TRIM",
+      "testCaseType":"POSITIVE"
     },
     {
       "description": "Testing of Nested Handling for ASSIGNMENTRULES for TRIM Operation",
@@ -620,9 +699,10 @@
           "a": "Add",
           "j": "{\"filePath\":[\"trim-app/main/default/assignmentRules/Case.assignmentRules-meta.xml\"]}"
         }
-        
+
       ],
-      "Operation": "TRIM"
+      "Operation": "TRIM",
+      "testCaseType":"POSITIVE"
     },
     {
       "description": "Testing of Nested Handling for MATCHINGRULES for TRIM Operation",
@@ -643,9 +723,10 @@
           "a": "RetrieveOnly",
           "j": "{\"filePath\":[\"trim-app/main/default/matchingRules/SDL_CustObj__c.matchingRule-meta.xml\"]}"
         }
-        
+
       ],
-      "Operation": "TRIM"
+      "Operation": "TRIM",
+      "testCaseType":"POSITIVE"
     },
     {
       "description": "Testing of Nested Handling for SHARINGRULES for TRIM Operation",
@@ -673,9 +754,10 @@
           "a": "RetrieveOnly",
           "j": "{\"filePath\":[\"trim-app/main/default/sharingRules/SDL_CustObj__c.sharingRules-meta.xml\"]}"
         }
-        
+
       ],
-      "Operation": "TRIM"
+      "Operation": "TRIM",
+      "testCaseType":"POSITIVE"
     },
     {
       "description": "Testing of Nested Handling for WORKFLOWRULES for TRIM Operation",
@@ -728,9 +810,10 @@
           "a": "Add",
           "j": "{\"filePath\":[\"trim-app/main/default/workflows/Planet__c.workflow-meta.xml\"]}"
         }
-        
+
       ],
-      "Operation": "TRIM"
+      "Operation": "TRIM",
+      "testCaseType":"POSITIVE"
     },
     {
       "description": "Testing of Nested Handling for ESCALATIONRULES for TRIM Operation",
@@ -751,9 +834,10 @@
           "a": "RetrieveOnly",
           "j": "{\"filePath\":[\"trim-app/main/default/escalationRules/Case.escalationRules-meta.xml\"]}"
         }
-        
+
       ],
-      "Operation": "TRIM"
+      "Operation": "TRIM",
+      "testCaseType":"POSITIVE"
     },
     {
       "description": "Testing of Nested Handling for CUSTOMOBJECTTRANSLATION for TRIM Operation",
@@ -822,9 +906,10 @@
           "a": "RetrieveOnly",
           "j": "{\"filePath\":[\"trim-app/main/default/objects/KompalCustomObj1__c/webLinks/KompalButton.webLink-meta.xml\"]}"
         }
-        
+
       ],
-      "Operation": "TRIM"
+      "Operation": "TRIM",
+      "testCaseType":"POSITIVE"
     }
     
   ]
