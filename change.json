@@ -910,7 +910,61 @@
       ],
       "Operation": "TRIM",
       "testCaseType":"POSITIVE"
+    },
+    {
+      "description": "Testing of Nested Handling for PERMISSIONSET for TRIM Operation",
+      "changes": [
+        {
+          "t": "PermissionSet",
+          "n": "SDL_PS",
+          "m": "trim-app/main/default/",
+          "c": "",
+          "a": "Add",
+          "j": "{\"filePath\":[\"trim-app/main/default/permissionsets/SDL_PS.permissionset-meta.xml\"]}"
+        },
+        {
+          "t": "CustomObject",
+          "n": "KompalCustomObj1__c",
+          "m": "trim-app/main/default/",
+          "c": "",
+          "a": "Delete",
+          "j": "{\"filePath\":[\"trim-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+        },
+        {
+          "t": "CustomTab",
+          "n": "SDL_CustObj__c",
+          "m": "trim-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"trim-app/main/default/tabs/SDL_CustObj__c.tab-meta.xml\"]}"
+        },
+        {
+          "t": "CustomPermission",
+          "n": "KPCustomPermission1",
+          "m": "trim-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"trim-app/main/default/customPermissions/KPCustomPermission1.customPermission-meta.xml\"]}"
+        },
+        {
+          "t": "CustomObject",
+          "n": "KompalCustomMDT__mdt",
+          "m": "trim-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"trim-app/main/default/objects/KompalCustomMDT__mdt/KompalCustomMDT__mdt.object-meta.xml\"]}"
+        },
+        {
+          "t": "CustomObject",
+          "n": "kompalCustomSetting1__c",
+          "m": "trim-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"trim-app/main/default/objects/kompalCustomSetting1__c/kompalCustomSetting1__c.object-meta.xml\"]}"
+        }
+      ],
+      "Operation": "TRIM",
+      "testCaseType":"NEGATIVE"
     }
-    
   ]
 }
