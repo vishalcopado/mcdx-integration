@@ -7,6 +7,10 @@
     {
       "path": "trim-app",
       "default": true
+    },
+    {
+      "path": "trim-app",
+      "default": false
     }
   ],
   "name": "mcdx-integration-tests",
