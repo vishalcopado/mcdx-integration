@@ -910,6 +910,60 @@
       ],
       "Operation": "TRIM",
       "testCaseType":"POSITIVE"
+    },
+    {
+      "description": "Testing of Nested Handling for PERMISSIONSET for TRIM Operation",
+      "changes": [
+        {
+          "t": "PermissionSet",
+          "n": "SDL_PS",
+          "m": "trim-app/main/default/",
+          "c": "",
+          "a": "Add",
+          "j": "{\"filePath\":[\"trim-app/main/default/permissionsets/SDL_PS.permissionset-meta.xml\"]}"
+        },
+        {
+          "t": "CustomObject",
+          "n": "kompalCustomSetting1__c",
+          "m": "trim-app/main/default/",
+          "c": "",
+          "a": "Add",
+          "j": "{\"filePath\":[\"trim-app/main/default/objects/kompalCustomSetting1__c/kompalCustomSetting1__c.object-meta.xml\"]}"
+        }
+      ],
+      "Operation": "TRIM",
+      "testCaseType":"NEGATIVE"
+    },
+    {
+      "description": "Testing of Nested Handling for PROFILE for TRIM Operation",
+      "changes": [
+        {
+          "t": "Profile",
+          "n": "Admin",
+          "m": "trim-app/main/default/",
+          "c": "",
+          "a": "Add",
+          "j": "{\"filePath\":[\"trim-app/main/default/profiles/Admin.profile-meta.xml\"]}"
+        },
+        {
+          "t": "CustomApplication",
+          "n": "Chatter_Answers_Moderator",
+          "m": "trim-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"trim-app/main/default/applications/Chatter_Answers_Moderator.app-meta.xml\"]}"
+        },
+        {
+          "t": "CustomObject",
+          "n": "kompalCustomSetting1__c",
+          "m": "trim-app/main/default/",
+          "c": "",
+          "a": "Add",
+          "j": "{\"filePath\":[\"trim-app/main/default/objects/kompalCustomSetting1__c/kompalCustomSetting1__c.object-meta.xml\"]}"
+        }
+      ],
+      "Operation": "TRIM",
+      "testCaseType":"POSITIVE"
     }
     
   ]
