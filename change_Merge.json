@@ -1,0 +1,19 @@
+{
+  "test_cases": [
+    {
+      "description": "Testing of Nested Handling for PROFILE for COMMIT Operation",
+      "changes": [
+        {
+          "t": "Profile",
+          "n": "Admin",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "Add",
+          "j": "{\"filePath\":[\"force-app/main/default/profiles/Admin.profile-meta.xml\"]}"
+        }
+      ],
+      "Operation": "MERGE",
+      "testCaseType":"POSITIVE"
+    }
+  ]
+}

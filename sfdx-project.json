@@ -6,15 +6,15 @@
     },
     {
       "path": "trim-app",
-      "default": true
+      "default": false
     },
     {
-      "path": "trim-app",
+      "path": "conflict-res-app",
       "default": false
     }
   ],
   "name": "mcdx-integration-tests",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "55.0"
+  "sourceApiVersion": "57.0"
 }

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>SDL_SharingRules2</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>SDL_SharingRules2</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <criteriaItems>
+            <field>SDL_CustFLD__c</field>
+            <operation>contains</operation>
+            <value>test</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>SDL_SharingRules</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>SDL_SharingRules</label>
+        <sharedTo>
+            <allCustomerPortalUsers></allCustomerPortalUsers>
+        </sharedTo>
+        <sharedFrom>
+            <allCustomerPortalUsers></allCustomerPortalUsers>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>
