@@ -3,14 +3,15 @@
     {
       "description": "Testing of Nested Handling for PROFILE for COMMIT Operation",
       "changes": [
-        {
-          "t": "Profile",
-          "n": "Admin",
-          "m": "force-app/main/default/",
-          "c": "",
-          "a": "Add",
-          "j": "{\"filePath\":[\"force-app/main/default/profiles/Admin.profile-meta.xml\"]}"
-        }
+          {
+
+            "t": "CustomField",
+            "n": "TestObject__c.field1__c",
+            "m": "myapp/main/default/objects/TestObject__c/fields/field1__c.field-meta.xml",
+            "c":"SFDX",
+            "a":"Add",
+            "j": "{\"filePath\":[\"myapp/main/default/objects/TestObject__c/fields/field1__c.field-meta.xml\"]}"
+          }
       ],
       "Operation": "MERGE",
       "testCaseType":"POSITIVE"
