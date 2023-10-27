@@ -1,20 +1,42 @@
 {
   "test_cases": [
     {
-      "description": "Testing of Nested Handling for PROFILE for COMMIT Operation",
+      "description": "CHANGE_WINS : Conflict resolution test when CHANGE part of selection",
       "changes": [
-          {
-
-            "t": "CustomField",
-            "n": "TestObject__c.field1__c",
-            "m": "myapp/main/default/objects/TestObject__c/fields/field1__c.field-meta.xml",
-            "c":"SFDX",
-            "a":"Add",
-            "j": "{\"filePath\":[\"myapp/main/default/objects/TestObject__c/fields/field1__c.field-meta.xml\"]}"
-          }
+        {
+          "t": "CustomField",
+          "n": "TestObject__c.field1__c",
+          "m": "conflict-res-app/main/default/ChangeWins/objects/TestObject__c/fields/field1__c.field-meta.xml",
+          "c": "SFDX",
+          "a": "Add",
+          "j": "{\"filePath\":[\"conflict-res-app/main/default/ChangeWins/objects/TestObject__c/fields/field1__c.field-meta.xml\"]}"
+        }
       ],
       "Operation": "MERGE",
-      "testCaseType":"POSITIVE"
+      "testCaseType": "POSITIVE",
+      "additionalInfo": {
+        "conflictResolverResultExpected": {
+          "conflict-res-app/main/default/ChangeWins/objects/TestObject__c/fields/field1__c.field-meta.xml": "AUTOMATIC",
+          "conflict-res-app/main/default/ChangeWins/objects/TestObject__c/fields/field2__c.field-meta.xml": "AUTOMATIC"
+        },
+        "otherInfo": {"key": "value"}
+      }
+    },
+    {
+      "description": "CHANGE_WINS : Conflict resolution test when CHANGE not part of selection",
+      "changes": [
+        {
+          "t": "CustomField",
+          "n": "TestObject__c.field2__c",
+          "m": "conflict-res-app/main/default/ChangeWins/objects/TestObject__c/fields/field2__c.field-meta.xml",
+          "c": "SFDX",
+          "a": "Add",
+          "j": "{\"filePath\":[\"conflict-res-app/main/default/ChangeWins/objects/TestObject__c/fields/field2__c.field-meta.xml\"]}"
+        }
+      ],
+      "Operation": "MERGE",
+      "testCaseType": "POSITIVE",
+      "additonalInfo": "{\"conflict-res-app/main/default/ChangeWins/objects/TestObject__c/fields/field1__c.field-meta.xml\":\"AUTOMATIC\"}"
     }
   ]
 }
