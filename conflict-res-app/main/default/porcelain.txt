@@ -1,0 +1,1 @@
+UU conflict-res-app/main/default/ChangeWins/objects/TestObject__c/fields/field1__c.field-meta.xml
