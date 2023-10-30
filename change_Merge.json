@@ -10,14 +10,6 @@
           "c": "SFDX",
           "a": "Add",
           "j": "{\"filePath\":[\"conflict-res-app/main/default/ChangeWins/objects/TestObject__c/fields/field1__c.field-meta.xml\"]}"
-        },
-         {
-          "t": "CustomField",
-          "n": "TestObject__c.field22__c",
-          "m": "conflict-res-app/main/default/ChangeWins/objects/TestObject__c/fields/field22__c.field-meta.xml",
-          "c": "SFDX",
-          "a": "Add",
-          "j": "{\"filePath\":[\"conflict-res-app/main/default/ChangeWins/objects/TestObject__c/fields/field22__c.field-meta.xml\"]}"
         }
       ],
       "Operation": "MERGE",
@@ -29,6 +21,22 @@
         },
         "otherInfo": {"key": "value"}
       }
+    },
+    {
+      "description": "ORIGINAL_WINS : Conflict resolution test when conflicted path's CHANGE not part of selection",
+      "changes": [
+        {
+          "t": "CustomField",
+          "n": "TestObject__c.field22__c",
+          "m": "conflict-res-app/main/default/ChangeWins/objects/TestObject__c/fields/field22__c.field-meta.xml",
+          "c": "SFDX",
+          "a": "Add",
+          "j": "{\"filePath\":[\"conflict-res-app/main/default/ChangeWins/objects/TestObject__c/fields/field22__c.field-meta.xml\"]}"
+        }
+      ],
+      "Operation": "MERGE",
+      "testCaseType": "POSITIVE",
+      "additonalInfo": "{\"conflict-res-app/main/default/ChangeWins/objects/TestObject__c/fields/field1__c.field-meta.xml\":\"AUTOMATIC\"}"
     }
   ]
 }
