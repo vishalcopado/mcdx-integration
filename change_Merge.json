@@ -22,7 +22,7 @@
       }
     },
     {
-      "description": "CHANGE_WINS : Conflict resolution test when CHANGE not part of selection",
+      "description": "ORIGINAL_WINS : Conflict resolution test when CHANGE not part of selection",
       "changes": [
         {
           "t": "CustomField",
@@ -38,6 +38,27 @@
       "additionalInfo": {
         "conflictResolverResultExpected": {
           "conflict-res-app/main/default/ChangeWins/objects/TestObject__c/fields/field2__c.field-meta.xml": "AUTOMATIC"
+        },
+        "otherInfo": {"key": "value"}
+      }
+    },
+    {
+      "description": "ONLINE_RESOLUTION :",
+      "changes": [
+        {
+          "t": "CustomField",
+          "n": "KompalCustomObj1__c.KompalCustomFIeld1__c",
+          "m": "conflict-res-app/main/default/OnlineResolution/objects/KompalCustomObj1__c/fields/KompalCustomFIeld1__c.field-meta.xml",
+          "c": "SFDX",
+          "a": "Add",
+          "j": "{\"filePath\":[\"conflict-res-app/main/default/OnlineResolution/objects/KompalCustomObj1__c/fields/KompalCustomFIeld1__c.field-meta.xml\"]}"
+        }
+      ],
+      "Operation": "MERGE",
+      "testCaseType": "POSITIVE",
+      "additionalInfo": {
+        "conflictResolverResultExpected": {
+          "conflict-res-app/main/default/OnlineResolution/objects/KompalCustomObj1__c/fields/KompalCustomFIeld1__c.field-meta.xml": "ONLINE_CONFLICT_RESOLUTION"
         },
         "otherInfo": {"key": "value"}
       }
