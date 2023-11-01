@@ -3,7 +3,7 @@
     <fullName>field2__c</fullName>
     <externalId>false</externalId>
     <label>field2</label>
-    <length>20</length>
+    <length>200</length>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Text</type>
